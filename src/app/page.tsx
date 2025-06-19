@@ -13,6 +13,7 @@ type Project = {
   projType: string;
   relatedExperience: string;
   notionEmbedUrl: string;
+  notionId: string;
 };
 
 export default function Home() {

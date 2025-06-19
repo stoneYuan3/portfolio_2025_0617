@@ -4,7 +4,7 @@ import Link from "next/link";
 export const NavMain = () => {
 
     return(
-        <div className="py-[48px] px-[62px] grow-[0.15]">
+        <div className="py-[48px] px-[62px] w-[200px]">
                 <nav className="fixed flex flex-col gap-[52px]">
                     <div className="logo">
                         {/* <Link onClick={() => {setPage("gallery"); scrollToTop(); NavGallery.resetPage()}} to={homelink}> */}
@@ -15,7 +15,7 @@ export const NavMain = () => {
                     </div>
 
                     <div className="flex flex-col items-center gap-[36px]">
-                        <Link href="/gallery">Gallery</Link>
+                        <Link href="/">Gallery</Link>
                         <Link href="/about">About Me</Link>
                         <Link href="/playground">Playground</Link>
                     </div>

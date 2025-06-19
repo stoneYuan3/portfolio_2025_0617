@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <div className="flex flex-row">
           <NavMain />
-          <div>
+          <div className="flex flex-col py-[64px] w-[100%]">
             {children}
           </div>
         </div>

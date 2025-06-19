@@ -1,12 +1,13 @@
 [
   {
-    "id": "portfolio",
-    "title": "My Portfolio Site",
-    "notionEmbedUrl": ""
-  },
-  {
-    "id": "cool-app",
-    "title": "Cool Web App",
-    "notionEmbedUrl": ""
+    "id": "proj_sela",
+    "title": "The Sela Project",
+    "teaserDesc": "Work with a small non-profit organization to develop the front end interface of a bible poetry reader with React.js and Typescript",
+    "teaserImg": "teaser_sela.png",
+    "teaserCaption": "Team Volunteer Project, 2023",
+    "isFeatured": true,
+    "projType": "programming",
+    "relatedExperience": "",
+    "notionEmbedUrl": "https://wandering-castanet-8df.notion.site/ebd/2178ed4da86380ccacadcb4321270219"
   }
 ]

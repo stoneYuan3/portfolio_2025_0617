@@ -1,20 +1,19 @@
 
-import Image from "next/image";
 import data from './data/projects.json'
 import Link from "next/link";
 
-type Project = {
-  id: string;
-  title: string;
-  teaserDesc: string;
-  teaserImg: string;
-  teaserCaption: string;
-  isFeatured: boolean;
-  projType: string;
-  relatedExperience: string;
-  notionEmbedUrl: string;
-  notionId: string;
-};
+// type Project = {
+//   id: string;
+//   title: string;
+//   teaserDesc: string;
+//   teaserImg: string;
+//   teaserCaption: string;
+//   isFeatured: boolean;
+//   projType: string;
+//   relatedExperience: string;
+//   notionEmbedUrl: string;
+//   notionId: string;
+// };
 
 export default function Home() {
 

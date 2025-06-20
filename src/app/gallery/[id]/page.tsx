@@ -16,6 +16,8 @@ interface PageProps {
 
 export default function ProjectPage({ params }: PageProps) {
 
+  console.log(params)
+
   return (
     <div style={{ maxWidth: '800px', margin: '0 auto', padding: '2rem' }}>
       <NotionRenderer recordMap={recordMap} fullPage={true} darkMode={false} />

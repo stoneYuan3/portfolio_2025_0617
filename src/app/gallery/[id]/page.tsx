@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { remark } from 'remark';
 import html from 'remark-html';
+import remarkImagePrefix from '@/lib/remark-image-prefix';
 
 export default async function ProjectPage({
   params,
@@ -12,11 +13,16 @@ export default async function ProjectPage({
 
   const { id } = await params;
   console.log(id)
-  const filePath = path.join(process.cwd(), `src/app/data/markdown/${id}`, `${id}.md`);
+  const filePath = path.join(process.cwd(), 'src/markdown', `${id}.md`);
   console.log(filePath)
 
   const markdown = fs.readFileSync(filePath, 'utf-8');
-  const result = await remark().use(html).process(markdown);
+  // const result = await remark().use(html).process(markdown);
+  const result = await remark()
+    .use(remarkImagePrefix)
+    .use(html)
+    .process(markdown);
+  
   const contentHtml = result.toString();
   
   return (

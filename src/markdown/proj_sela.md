@@ -4,17 +4,17 @@
 
 ## Links
 
-App Link
+**App Link**
 
-https://sela-webapp.vercel.app/
+[https://sela-webapp.vercel.app/](https://sela-webapp.vercel.app/)
 
-Github
+**Github**
 
 [https://github.com/teamsela/sela-webapp](https://github.com/teamsela/sela-webapp)
 
-Team Website
+**Team Website**
 
-https://www.biblepoetry.org/
+[https://www.biblepoetry.org/](https://www.biblepoetry.org/)
 
 ## Summary
 

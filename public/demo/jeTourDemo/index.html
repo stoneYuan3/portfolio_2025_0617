@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+		<script type="text/javascript" src="script/resizeRoot.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<meta name="format-detection" content="telephone=no, email=no" />
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="full-screen" content="yes">
+		<meta name="x5-fullscreen" content="true">
+		<meta name="browsermode" content="application">
+		<meta name="x5-page-mode" content="app">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title></title>
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+		<link href="styles/base.css" type="text/css" rel="stylesheet">
+		<link href="styles/swiper.min.css" type="text/css" rel="stylesheet">
+		<link href="styles/themes.css" type="text/css" rel="stylesheet">
+
+		<script type="text/javascript" src="script/jquery.js"></script>
+		<script type="text/javascript" src="script/swiper-bundle.min.js"></script>
+
+		<script src="./script/swiper-bundle.min.js"></script>
+
+		<script src="./script/utils/react-development.js"></script>
+		<script src="./script/utils/react-dom.development.js"></script>
+		<script src="./script/utils/babel.js"></script>
+
+
+		<link rel="stylesheet" href="./styles/swiper-bundle.min.css">
+		<link rel="stylesheet" href="./original/culture.css">
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="container">
+				<div class="header">
+				</div>
+				<div class="aside">
+				</div>
+				<div class="section">
+					<div class="index">
+						<div class="menuOptions">
+							<div class="col1 menuColumn">
+								<button id="menuClose"><img src="images/close.png"></button>
+								<ul>
+									<li class="selected">
+										<button id="vehicles">Vehicle Models<span>></span></button>
+									</li>
+									<li>
+										<button id="exploreJetour">Explore JETOUR<span>></span></button>
+									</li>
+									<li><a href="">Innovation</a></li>
+									<li><a href="">Contact Us</a></li>
+									<li><a href="">Global Partners</a></li>
+								</ul>
+							</div>
+							<div class="col2 menuColumn">
+								<ul class="vehicleModel">
+									<li class="selected" type="dashing">JETOUR DASHING</li>
+									<li type="x70">JETOUR X70</li>
+									<li type="x70plus">JETOUR X70 PLUS</li>
+									<li type="x90">JETOUR X90</li>
+									<li type="x90plus">JETOUR X90 PLUS</li>
+									<li type="x95">JETOUR X95</li>
+								</ul>
+								<ul class="exploreJetour hide">
+									<li class="selected">Company Profile</li>
+									<li>International Team</li>
+									<li>Jetour brand</li>
+									<li>History</li>
+									<li>News</li>
+									<li>Video</li>
+								</ul>
+							</div>
+							<div class="col3 menuColumn">
+								<div class="menuModel dashing">
+									<img class="modelImg" src="images/menu_model_dashing.png">
+									<div class="info">
+										<img src="images/menu_model_dashing_title.png">
+										<a href="" class="viewMore">Discover More</a>
+										<div>
+											<a href="">Test Drive</a>
+											<span></span>
+											<a href="">3D Visualizer</a>
+										</div>
+									</div>
+								</div>
+								<div class="menuModel x70 hide">
+									<img class="modelImg" src="images/menu_model_x70plus.png">
+									<div class="info">
+										<img src="images/menu_model_x70plus_title.png">
+										<a href="" class="viewMore">Discover More</a>
+										<div>
+											<a href="">Test Drive</a>
+											<span></span>
+											<a href="">3D Visualizer</a>
+										</div>
+									</div>
+								</div>
+								<div class="menuModel x70plus hide">
+									<img class="modelImg" src="images/menu_model_x70plus.png">
+									<div class="info">
+										<img src="images/menu_model_x70plus_title.png">
+										<a href="" class="viewMore">Discover More</a>
+										<div>
+											<a href="">Test Drive</a>
+											<span></span>
+											<a href="">3D Visualizer</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="nav">
+							<div class="left">
+								<button id="menuOpen" class="menu">
+									<img class="imgNormal" src="images/menu.png">
+									<img class="imgFixed" src="images/menu_fixed.png">
+								</button>
+								<span></span>
+								<button class="lang">
+									<img class="imgNormal" src="images/lang.png">
+									<img class="imgFixed" src="images/lang_fixed.png">
+								</button>
+								<a href="" class="world">
+									<img class="imgNormal" src="images/world.png">
+									<img class="imgFixed" src="images/world_fixed.png">
+								</a>
+							</div>
+							<img class="logo imgNormal" src="images/logo.png">
+							<img class="logo imgFixed" src="images/logo_fixed.png">
+						</div>
+						<div class="banner">
+							<div class="swiper swiper-banner">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="s0 imgWrapper">
+											<div class="layerTop">
+												<!-- <img src="images/banner_1f.png"> -->
+											</div>
+											<div class="layerMid">
+												<span></span>
+												<!-- <img src="images/banner_1f.png"> -->
+											</div>
+											<div class="layerLow">
+												<!-- <img src="images/banner_1f.png"> -->
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="s1 imgWrapper">
+											<div class="layerTop">
+												<!-- <img src="images/banner_2f.png"> -->
+											</div>
+											<div class="layerMid">
+												<span></span>
+												<!-- <img src="images/banner_2f.png"> -->
+											</div>
+											<div class="layerLow">
+												<!-- <img src="images/banner_2f.png"> -->
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="s2 imgWrapper">
+											<div class="layerTop">
+												<!-- <img src="images/banner_3f.png"> -->
+											</div>
+											<div class="layerMid">
+												<span></span>
+												<!-- <img src="images/banner_3f.png"> -->
+											</div>
+											<div class="layerLow">
+												<!-- <img src="images/banner_3f.png"> -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="bannerTitle">
+								<div class="s0 titleGroup">
+									<p class="title">
+										<span>DASHING</span>
+									</p>
+									<span class="belowTitle"></span>
+									<p class="slogan">
+										<span>ENJOY LIFE, ENJOY TRAVEL</span>
+									</p>
+									<div class="arrows">
+										<button class="bannerPrev">
+											<img src="images/banner_arrowLeft.png">
+										</button>
+										<span></span>
+										<button class="bannerNext">
+											<img src="images/banner_arrowRight.png">
+										</button>
+									</div>
+								</div>
+								<div class="s1 titleGroup hide">
+									<p class="title">
+										<span>X70PLUS</span>
+									</p>
+									<span class="belowTitle"></span>
+									<p class="slogan">
+										<span>ENJOY LIFE, ENJOY TRAVEL</span>
+									</p>
+									<div class="arrows">
+										<button class="bannerPrev">
+											<img src="images/banner_arrowLeft.png">
+										</button>
+										<span></span>
+										<button class="bannerNext">
+											<img src="images/banner_arrowRight.png">
+										</button>
+									</div>
+								</div>
+								<div class="s2 titleGroup hide">
+									<p class="title">
+										<span>X90PLUS</span>
+									</p>
+									<span class="belowTitle"></span>
+									<p class="slogan">
+										<span>ENJOY LIFE, ENJOY TRAVEL</span>
+									</p>
+									<div class="arrows">
+										<button class="bannerPrev">
+											<img src="images/banner_arrowLeft.png">
+										</button>
+										<span></span>
+										<button class="bannerNext">
+											<img src="images/banner_arrowRight.png">
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="model-show">
+							<div class="swiper swiper-model">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<img src="images/model-dashing.png">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/model-x70plus.png">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/model-dashing.png">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/model-x70plus.png">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/model-dashing.png">
+									</div>
+									<div class="swiper-slide">
+										<img src="images/model-x70plus.png">
+									</div>
+								</div>
+							</div>
+							<div class="swiper-model-thumb-wrapper">
+								<div class="swiper swiper-model-thumb">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<img src="images/model-dashing-sub.png">
+											<p>DASHING</p>
+										</div>
+										<div class="swiper-slide">
+											<img src="images/model-x70plus-sub.png">
+											<p>X70 PLUS</p>
+										</div>
+										<div class="swiper-slide">
+											<img src="images/model-dashing-sub.png">
+											<p>X95</p>
+										</div>
+										<div class="swiper-slide">
+											<img src="images/model-x70plus-sub.png">
+											<p>X70</p>
+										</div>
+										<div class="swiper-slide">
+											<img src="images/model-dashing-sub.png">
+											<p>X90</p>
+										</div>
+										<div class="swiper-slide">
+											<img src="images/model-x70plus-sub.png">
+											<p>X95</p>
+										</div>									
+									</div>
+								</div>
+								<div class="swiper-model-button">
+									<a class="swiper-prev">
+										<img class="unselected" src="./images/O-L.png" alt="">
+										<img class="hide selected" src="./images/W-L.png" alt="">
+									</a>
+									<a class="swiper-next">
+										<img class="unselected" src="./images/O-R.png" alt="">
+										<img class="hide selected" src="./images/W-R.png" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="modelTitle">
+								<div>
+									<img src="images/model-dashing-name.png">
+									<p>Enjoy life enjoy travel</p>
+									<a href="">TEST DRIVE</a>
+								</div>
+							</div>
+							<div class="modelNumber">
+								<div class="numberWrapper length">
+									<div class="number">
+										<div class="numberCluster">
+											<div class="s0" label="numBox">
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>		
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+											</div>
+										</div>
+										<p>mm</p>
+									</div>
+									<div class="numberDesc">
+										<p>LENGTH</p>
+										<span></span>
+									</div>
+								</div>
+								<div class="numberWrapper width">
+									<div class="number">
+										<div class="numberCluster">
+											<div class="s0" label="numBox">
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>		
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+											</div>
+										</div>
+										<p>mm</p>
+									</div>
+									<div class="numberDesc">
+										<p>WIDTH</p>
+										<span></span>
+									</div>
+								</div>
+								<div class="numberWrapper height">
+									<div class="number">
+										<div class="numberCluster">
+											<div class="s0" label="numBox">
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>		
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+												<div class="numberColumn">
+													<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span>
+												</div>	
+											</div>
+										</div>
+										<p>mm</p>
+									</div>
+									<div class="numberDesc">
+										<p>HEIGHT</p>
+										<span></span>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="culture">
+							<div class="bg-box">
+								<img class="bg" src="./images/sec3-banner.png" alt="">
+								<div class="bg-title">
+									<div class="animated bg-title-div">
+										DEFINE TRAVEL
+										<br>
+										BY ACTION
+									</div>
+								</div>
+							</div>
+							<div class="content-box">
+								<div class="content-img">
+									<div class="content-img-box">
+										<img src="./images/sec3sub1.png" alt="">
+									</div>
+									<a href="http://108.88.3.255/explore">
+										<div class="mask1 mask">
+											<div class="mask-title">VITALITY</div>
+											<div class="mask-description">
+												Launch more vitality product lines, and start an infinite future
+												journey with users
+											</div>
+											<img class="icon" src="./images/icon.png" alt="">
+											<img class="line" src="./images/line.png" alt="">
+										</div>
+									</a>
+								</div>
+								<div class="content-img">
+									<div class="content-img-box">
+										<img src="./images/sec3sub2.png" alt="">
+									</div>
+									<a href="http://108.88.3.255/explore">
+										<div class="mask2 mask">
+											<div class="mask-title">ENTERPRISING</div>
+											<div class="mask-description">
+												More technological breakthrough innovations cater for customers’
+												needs of the enterprising younger generation
+											</div>
+											<img class="icon" src="./images/icon.png" alt="">
+											<img class="line" src="./images/line.png" alt="">
+										</div>
+									</a>
+								</div>
+								<div class="content-img">
+									<div class="content-img-box">
+										<img src="./images/sec3sub3.png" alt="">
+									</div>
+									<a href="http://108.88.3.255/explore">
+										<div class="mask3 mask">
+											<div class="mask-title">ACTION POWER</div>
+											<div class="mask-description">
+												Action is power, Jetour brand has been on the road, building a
+												better future with action
+											</div>
+											<img class="icon" src="./images/icon.png" alt="">
+											<img class="line" src="./images/line.png" alt="">
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="video">
+							<img src="images/video_banner.png">
+							<video class="hide" preload="preload" muted loop src="./videos/app.mp4"></video>
+						</div>
+
+						<div class="news">
+							<div class="newsOptions">
+								<p class="newsTitle">NEWS<br>CENTER</p>
+								<a class="viewAll" href="">VIEW ALL</a>
+								<div class="buttonWrapper">
+									<a class="swiper-prev">
+										<img class="unselected" src="./images/O-L.png" alt="">
+										<img class="hide selected" src="./images/W-L.png" alt="">
+									</a>
+									<a class="swiper-next">
+										<img class="unselected" src="./images/O-R.png" alt="">
+										<img class="hide selected" src="./images/W-R.png" alt="">
+									</a>
+								</div>
+							</div>
+							<div class="swiper swiper-news">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="hide hoverLink">
+											<img src="images/news_1_hover.png">
+											<div class="more">
+												<a href="">EXPLORE</a>
+											</div>
+										</div>
+										<div class="normal">
+											<div class="normalWrapper">
+												<p>Jetour Shines at 2023 Shanghai Auto Show
+													with Its Latest Achievements, Kicking Off an 
+													Accelerated Pace for Its Overseas ...</p>
+												<p class="date">2023.04.21</p>
+												<img src="images/news_1.png">
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="hide hoverLink">
+											<img src="images/news_2_hover.png">
+											<div class="more">
+												<a href="">EXPLORE</a>
+											</div>
+										</div>
+										<div class="normal">
+											<div class="normalWrapper">
+												<p>Jetour Shines at 2023 Shanghai Auto Show
+													with Its Latest Achievements, Kicking Off an 
+													Accelerated Pace for Its Overseas ...</p>
+												<p class="date">2023.04.21</p>
+												<img src="images/news_2.png">
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="hide hoverLink">
+											<img src="images/news_1_hover.png">
+											<div class="more">
+												<a href="">EXPLORE</a>
+											</div>
+										</div>
+										<div class="normal">
+											<div class="normalWrapper">
+												<p>Jetour Shines at 2023 Shanghai Auto Show
+													with Its Latest Achievements, Kicking Off an 
+													Accelerated Pace for Its Overseas ...</p>
+												<p class="date">2023.04.21</p>
+												<img src="images/news_1.png">
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="hide hoverLink">
+											<img src="images/news_2_hover.png">
+											<div class="more">
+												<a href="">EXPLORE</a>
+											</div>
+										</div>
+										<div class="normal">
+											<div class="normalWrapper">
+												<p>Jetour Shines at 2023 Shanghai Auto Show
+													with Its Latest Achievements, Kicking Off an 
+													Accelerated Pace for Its Overseas ...</p>
+												<p class="date">2023.04.21</p>
+												<img src="images/news_2.png">
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="hide hoverLink">
+											<img src="images/news_1_hover.png">
+											<div class="more">
+												<a href="">EXPLORE</a>
+											</div>
+										</div>
+										<div class="normal">
+											<div class="normalWrapper">
+												<p>Jetour Shines at 2023 Shanghai Auto Show
+													with Its Latest Achievements, Kicking Off an 
+													Accelerated Pace for Its Overseas ...</p>
+												<p class="date">2023.04.21</p>
+												<img src="images/news_1.png">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="rest">
+							<img src="images/part4to6.png">
+						</div>
+					</div>
+				</div>
+				<div class="footer">
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="script/global.js"></script>
+	<!-- <script type="text/babel" src="./components/common/header/header.js"></script> -->
+	<script src="./script/aliplayer.js"></script>
+	<script src="./script/index.js"></script>
+
+</html>

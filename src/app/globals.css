@@ -55,3 +55,54 @@ body {
 .links-external-small{
     display: none;
 }
+
+
+/* article */
+/* /////////////////// */
+.article__body {
+  max-width: 50rem;
+}
+.article__body h1,
+.article__body h2, 
+.article__body h3, 
+.article__body h4 {
+  margin-bottom: .75rem;
+  margin-top: 1.5rem;
+}
+.article__body h1,
+.article__body h2 {
+  font-weight: 800;
+}
+.article__body h3, 
+.article__body h4 {
+  font-weight: 700; 
+}
+.article__body h1 {
+  font-size: 2rem;
+}
+.article__body h2 {
+  font-size: 1.65rem;
+}
+.article__body h3 {
+  font-size: 1.35rem;
+}
+.article__body p,
+.article__body a,
+.article__body ul {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
+.article__body a {
+  color: brown;
+  text-decoration: underline;
+}
+.article__body iframe {
+  width: 960px;
+  height: 640px;
+}
+.article__body iframe,
+.article__body img {
+  margin-bottom: 1rem;
+  max-width: 60rem;
+}

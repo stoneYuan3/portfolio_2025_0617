@@ -4,7 +4,7 @@ import Link from "next/link";
 export const NavMain = () => {
 
     return(
-        <div className="py-[48px] px-[62px] w-[200px]">
+        <div className="py-[48px] px-[62px] w-[230px]">
                 <nav className="fixed flex flex-col gap-[52px]">
                     <div className="logo">
                         {/* <Link onClick={() => {setPage("gallery"); scrollToTop(); NavGallery.resetPage()}} to={homelink}> */}

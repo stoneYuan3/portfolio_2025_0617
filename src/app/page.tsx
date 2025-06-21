@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import data from './data/projects.json'
+import data from '../data/projects.json'
 import Link from "next/link";
 
 type Project = {

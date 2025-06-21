@@ -2,7 +2,8 @@
 import Link from "next/link"
 
 export const HomeTeaser = ({
-    value
+    value,
+    type
 }: {
     value: {
         id: string,
@@ -10,11 +11,12 @@ export const HomeTeaser = ({
         title: string,
         teaserDesc: string,
         teaserCaption: string
-    }
+    },
+    type: string;
 }) => {
 
     return (
-        <Link href={`/gallery/${value.id}`} className="flex flex-row gap-[3rem] items-center">
+        <Link href={`/gallery/${type}/${value.id}`} className="flex flex-row gap-[3rem] items-center">
             <div className="w-[18rem] h-[12rem]" >
                 <img className="w-[100%] h-[100%] object-cover" src={`/images/teasers/${value.teaserImg}`} />
             </div>
@@ -28,9 +30,11 @@ export const HomeTeaser = ({
 }
 
 export const HomeTeaserContainer = ({ 
-    data 
+    data,
+    type 
 }: {
-    data: any[]
+    data: any[],
+    type: string
 }) => {
 
     return (
@@ -38,7 +42,7 @@ export const HomeTeaserContainer = ({
             {
                 data.map((value, i) => {
                     return (
-                        <HomeTeaser value={value} key={i} />
+                        <HomeTeaser value={value} key={i} type={type} />
                     )
                 })
             }

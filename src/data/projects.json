@@ -7,8 +7,7 @@
     "teaserCaption": "Team Volunteer Project, 2023",
     "isFeatured": true,
     "projType": "programming",
-    "relatedExperience": "",
-    "notionEmbedUrl": "https://wandering-castanet-8df.notion.site/ebd/2178ed4da86380ccacadcb4321270219"
+    "relatedExperience": ""
   },
   {
     "id": "proj_jetourDemo",
@@ -18,7 +17,16 @@
     "teaserCaption": "Internship Project, individual, 2023",
     "isFeatured": true,
     "projType": "programming",
-    "relatedExperience": "",
-    "notionEmbedUrl": "https://wandering-castanet-8df.notion.site/ebd/2178ed4da86380ccacadcb4321270219"
+    "relatedExperience": ""
+  },
+  {
+    "id": "proj_willFaliureFilm",
+    "title": "Short Movie \"Failure of the Will\"",
+    "teaserDesc": "Produced a 1-minute film from plotting to filming, editing with Premier and sound effect making",
+    "teaserImg": "teaser_faliureOfWill.png",
+    "teaserCaption": "School Project, individual, 2020",
+    "isFeatured": true,
+    "projType": "graphic",
+    "relatedExperience": ""
   }
 ]

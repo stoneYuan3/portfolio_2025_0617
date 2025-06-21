@@ -7,14 +7,29 @@ import remarkImagePrefix from '@/lib/remark-image-prefix';
 import remarkRehype from 'remark-rehype';
 import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
+import Link from 'next/link';
 
 export default async function ProjectPage({
   params,
 }: {
-  params: Promise<{ id: string }>
+  params: { category: string; id: string }
 }) {
 
-  const { id } = await params;
+  const { category, id } = params;
+  const getBackLink = () => {   
+    if (params.category) {
+      if (params.category === 'programming') {
+        return '/'
+      }
+      else {
+        return `/${params.category}`
+      }
+    }
+    else {
+      return '/'; // fallback
+    }
+  };
+  
   console.log(id)
   const filePath = path.join(process.cwd(), 'src/markdown', `${id}.md`);
   console.log(filePath)
@@ -28,14 +43,16 @@ export default async function ProjectPage({
     .use(rehypeRaw) // 🐾 Allow raw HTML like <iframe>
     .use(rehypeStringify, { allowDangerousHtml: true }) // Serialize HTML to string
     .process(markdown);
-  
+
   const contentHtml = result.toString();
-  
+
   return (
     <>
-        <div>My Post: {id}</div>
-        {/* <iframe src="https://wandering-castanet-8df.notion.site/ebd/2178ed4da86380ccacadcb4321270219" width="100%" height="700" /> */}
-        <div className="article__body page__body" dangerouslySetInnerHTML={{ __html: contentHtml }} />
+      <div>type: {category}</div>
+      <div>Post: {id}</div>
+      <Link href={ getBackLink() }>Back</Link>
+      {/* <iframe src="https://wandering-castanet-8df.notion.site/ebd/2178ed4da86380ccacadcb4321270219" width="100%" height="700" /> */}
+      <div className="article__body page__body" dangerouslySetInnerHTML={{ __html: contentHtml }} />
     </>
 
   )

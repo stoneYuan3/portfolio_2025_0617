@@ -3,32 +3,32 @@ import Image from "next/image";
 import data from '../data/projects.json'
 import Link from "next/link";
 import { HomeTeaserContainer } from "./components/HomeTeaser";
-
-type Project = {
-  id: string;
-  title: string;
-  teaserDesc: string;
-  teaserImg: string;
-  teaserCaption: string;
-  isFeatured: boolean;
-  projType: string;
-  relatedExperience: string;
-  notionEmbedUrl: string;
-};
+import { HomeLandingIntro } from "./components/HomeLandingIntro";
+import { HomeTypeNav } from "./components/HomeTypeNav";
 
 export default function Home() {
+
+  const TYPE = "programming";
+  const filteredData = data.filter(item => item.projType === TYPE && item.isFeatured);
 
   return (
     <>
       <div className="page__body flex flex-col">
-        <div className="mb-[3rem]">
-          <h1>Featured Projects</h1>
-        </div>
-        <HomeTeaserContainer data={data} />
-
+        <HomeLandingIntro />
+        <HomeTypeNav />
+        <HomeTeaserContainer data={filteredData} type={TYPE} />
       </div>
     </>
   );
 }
 
-
+// type Project = {
+//   id: string;
+//   title: string;
+//   teaserDesc: string;
+//   teaserImg: string;
+//   teaserCaption: string;
+//   isFeatured: boolean;
+//   projType: string;
+//   relatedExperience: string;
+// };

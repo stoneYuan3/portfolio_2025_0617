@@ -8,7 +8,7 @@ export const NavMain = () => {
     const pathname = usePathname()
     const links = [
         { href: '/', label: 'Gallery' },
-        { href: '/experiences', label: 'Experiences' },
+        { href: '/experience', label: 'Experience' },
         { href: '/about', label: 'About Me' },
         { href: '/playground', label: 'Playground' },
     ]

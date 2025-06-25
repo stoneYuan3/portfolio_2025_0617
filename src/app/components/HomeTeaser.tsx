@@ -1,6 +1,27 @@
 
 import Link from "next/link"
 
+export const HomeTeaserContainer = ({ 
+    data,
+    type 
+}: {
+    data: any[],
+    type: string
+}) => {
+
+    return (
+        <div className="flex flex-col gap-[2.5rem]">
+            {
+                data.map((value, i) => {
+                    return (
+                        <HomeTeaser value={value} key={i} type={type} />
+                    )
+                })
+            }
+        </div>
+    )
+}
+
 export const HomeTeaser = ({
     value,
     type
@@ -29,23 +50,4 @@ export const HomeTeaser = ({
     )
 }
 
-export const HomeTeaserContainer = ({ 
-    data,
-    type 
-}: {
-    data: any[],
-    type: string
-}) => {
 
-    return (
-        <div className="flex flex-col gap-[2.5rem]">
-            {
-                data.map((value, i) => {
-                    return (
-                        <HomeTeaser value={value} key={i} type={type} />
-                    )
-                })
-            }
-        </div>
-    )
-}

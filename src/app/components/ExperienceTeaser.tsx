@@ -39,7 +39,6 @@ export const ExperienceTeaser = ({
                 <div className="flex flex-col gap-[8px]">
                     <p>{value.dateStart} - {value.dateEnd}</p>
                     <h3>{value.title}</h3>
-                    {/* <p><strong>{value.workTitle}</strong></p> */}
                 </div>
                 <p>{value.teaserDesc} </p>
             </div>

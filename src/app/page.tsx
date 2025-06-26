@@ -16,7 +16,7 @@ export default function Home() {
       <div className="page__body flex flex-col">
         <HomeLandingIntro />
         <HomeTypeNav />
-        <HomeTeaserContainer data={filteredData} type={TYPE} />
+        <HomeTeaserContainer data={filteredData} groupName={TYPE} />
       </div>
     </>
   );

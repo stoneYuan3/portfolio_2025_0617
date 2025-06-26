@@ -3,10 +3,10 @@ import Link from "next/link"
 
 export const HomeTeaserContainer = ({ 
     data,
-    type 
+    groupName 
 }: {
     data: any[],
-    type: string
+    groupName: string
 }) => {
 
     return (
@@ -14,7 +14,7 @@ export const HomeTeaserContainer = ({
             {
                 data.map((value, i) => {
                     return (
-                        <HomeTeaser value={value} key={i} type={type} />
+                        <HomeTeaser value={value} key={i} groupName={groupName} />
                     )
                 })
             }
@@ -24,7 +24,7 @@ export const HomeTeaserContainer = ({
 
 export const HomeTeaser = ({
     value,
-    type
+    groupName
 }: {
     value: {
         id: string,
@@ -33,11 +33,11 @@ export const HomeTeaser = ({
         teaserDesc: string,
         teaserCaption: string
     },
-    type: string;
+    groupName: string;
 }) => {
 
     return (
-        <Link href={`/gallery/${type}/${value.id}`} className="flex flex-row gap-[3rem] items-center">
+        <Link href={`/gallery/${groupName}/${value.id}`} className="flex flex-row gap-[3rem] items-center">
             <div className="w-[18rem] h-[12rem]" >
                 <img className="w-[100%] h-[100%] object-cover" src={`/images/teasers/${value.teaserImg}`} />
             </div>

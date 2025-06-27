@@ -3,7 +3,7 @@
         "id": "exp_alberni",
         "title": "Alberni Online",
         "teaserDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt erat.",
-        "teaserImg": "project.png",
+        "teaserImg": "alberniOnline.png",
         "dateStart": "2024/09",
         "dateEnd": "Today",
         "workTitle": "Front-end Developer"
@@ -12,7 +12,7 @@
         "id": "exp_sela",
         "title": "The Sela Project Team",
         "teaserDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt erat.",
-        "teaserImg": "project.png",
+        "teaserImg": "sela.svg",
         "dateStart": "2024/06",
         "dateEnd": "Today",
         "workTitle": "Front-end Developer"
@@ -21,7 +21,7 @@
         "id": "exp_pmpark",
         "title": "PM Park Inc.",
         "teaserDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt erat.",
-        "teaserImg": "project.png",
+        "teaserImg": "pmpark.jpg",
         "dateStart": "2023/05",
         "dateEnd": "2023/09",
         "workTitle": "Front-end Developer"

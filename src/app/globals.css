@@ -63,7 +63,8 @@ body {
   padding-right: 64px;
 }
 .article__body,
-.page__body {
+.page__body,
+.article__container {
   max-width: 50rem;
 }
 h1, h2 {

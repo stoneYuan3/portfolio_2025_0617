@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useMdFetcher } from '@/hooks/useMdFetcher';
 import data from '../../../data/projects.json'
-import { SideTeaserContainer } from '@/app/components/SideTeaser';
+import { InlineTeaserContainer } from '@/app/components/InlineProjectTeaser';
 
 export default async function ExperiencePage({
   params,
@@ -18,16 +18,16 @@ export default async function ExperiencePage({
   const filteredData = data.filter(item => item.relatedExperience === experience_name && item.isFeatured);
 
   return (
-    <div className='flex flex-row gap-[76px]'>
-      <div>
+    // <div className='flex flex-row gap-[76px]'>
+      <div className='article__container'>
         <Link href='/experience'>Back</Link>
         {/* <iframe src="https://wandering-castanet-8df.notion.site/ebd/2178ed4da86380ccacadcb4321270219" width="100%" height="700" /> */}
-        <div className="article__body page__body" dangerouslySetInnerHTML={{ __html: contentHtml }} />        
+        <div className="article__body page__body" dangerouslySetInnerHTML={{ __html: contentHtml }} />  
+        <div>
+          <InlineTeaserContainer data={filteredData} groupName={experience_name} />
+        </div>              
       </div>
-      <div>
-        <SideTeaserContainer data={filteredData} groupName={experience_name} />
-      </div>
-    </div>
+    // </div>
 
   )
 

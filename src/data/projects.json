@@ -20,6 +20,16 @@
     "relatedExperience": "exp_pmpark"
   },
   {
+    "id": "proj_cheryInternationalHome",
+    "title": "Chery International Home Page Development",
+    "teaserDesc": "Develop a demo based on design documents for client view with HTML, CSS, Jquery and Swiper.js, featuring complex banner animation",
+    "teaserImg": "teaser_cheryHomePage.png",
+    "teaserCaption": "Internship Project, individual, 2023",
+    "isFeatured": true,
+    "projType": "programming",
+    "relatedExperience": "exp_pmpark"
+  },
+  {
     "id": "proj_willFaliureFilm",
     "title": "Short Movie \"Failure of the Will\"",
     "teaserDesc": "Produced a 1-minute film from plotting to filming, editing with Premier and sound effect making",

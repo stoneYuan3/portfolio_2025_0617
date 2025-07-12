@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <div className="flex flex-row max-[1000px]:flex-col">
           <NavMain />
-          <div className="flex flex-col px-[62px] py-[64px] w-full max-[1000px]:pt-[32px] max-[450px]:px-[24px]">
+          <div className="flex flex-col px-[62px] py-[64px] w-full max-[1000px]:pt-[32px] max-[650px]:pt-0 max-[450px]:px-[24px]">
             {children}
           </div>
         </div>

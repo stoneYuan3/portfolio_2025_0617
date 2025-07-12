@@ -34,9 +34,9 @@ export const ExperienceTeaser = ({
 }) => {
 
     return (
-        <Link href={`/experience/${value.id}`} className="flex flex-row gap-[4rem] items-center">
-            <div className="w-[12rem] h-[12rem]" >
-                <img className="w-[100%] h-[100%] object-contain" src={`/images/logos/${value.teaserImg}`} />
+        <Link href={`/experience/${value.id}`} className="flex flex-row gap-[4rem] items-center max-[575px]:flex-col">
+            <div className="w-[12rem] h-[12rem] max-[575px]:w-full max-[575px]:h-[14rem] shrink-0" >
+                <img className="w-[12rem] h-[12rem] object-contain max-[575px]:w-full max-[575px]:h-[14rem]" src={`/images/logos/${value.teaserImg}`} />
             </div>
             <div className="flex flex-col gap-[10px] max-w-[480px]">
                 <div className="flex flex-col gap-[8px]">

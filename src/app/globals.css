@@ -125,12 +125,21 @@ h5 {
 }
 
 
+@media (max-width: 1350px) {
+  .article__body iframe, 
+  .article__body img {
+    max-width: 100%;
+  }
+}
+
 @media (max-width: 1000px) {
   body {
     padding-right: 0;
   }
-  .article__body iframe, 
-  .article__body img {
-    max-width: 100%;
+}
+
+@media (max-width: 450px) {
+  .links-external p {
+    display: none;
   }
 }

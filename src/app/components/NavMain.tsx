@@ -14,7 +14,7 @@ export const NavMain = () => {
     ]
 
     return (
-        <div className="py-[48px] px-[62px] w-[230px] max-[1000px]:w-full">
+        <div className="py-[48px] px-[62px] w-[230px] max-[1000px]:w-full max-[450px]:px-[24px]">
             <nav className="fixed flex flex-col gap-[52px] max-[1000px]:relative max-[1000px]:items-center max-[1000px]:gap-[30px]">
                 <div className="logo">
                     <Link className="flex flex-col items-center gap-[16px]" href="/">

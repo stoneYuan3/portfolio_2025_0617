@@ -123,3 +123,14 @@ h5 {
   margin-bottom: 1rem;
   max-width: 60rem;
 }
+
+
+@media (max-width: 1000px) {
+  body {
+    padding-right: 0;
+  }
+  .article__body iframe, 
+  .article__body img {
+    max-width: 100%;
+  }
+}

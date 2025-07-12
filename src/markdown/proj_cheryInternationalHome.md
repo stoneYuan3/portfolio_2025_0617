@@ -33,23 +33,23 @@ Gained hands-on experience in various web development skills such as Swiper Slid
 
 *PC and Mobile*
 
-<img src="/images/projects/proj_cheryInternationalHome/overview.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/overview.gif" />
 
 *Site Overview*
 
-<img src="/images/projects/proj_cheryInternationalHome/numberAnim.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/numberAnim.gif" />
 
 *Number animation*
 
-<img src="/images/projects/proj_cheryInternationalHome/factoryVisit.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/factoryVisit.gif" />
 
 *Factory visit animation*
 
-<img src="/images/projects/proj_cheryInternationalHome/testDrive.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/testDrive.gif" />
 
 *Test drive slider (note. images are rough placeholders)*
 
-<img src="/images/projects/proj_cheryInternationalHome/mobile.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/mobile.gif" />
 
 *Mobile overview*
 
@@ -83,7 +83,7 @@ I tried to build this feature with Swiper.js, however there are significant glit
 
 [*https://codepen.io/t_afif/pen/MWGJXEV*](https://codepen.io/t_afif/pen/MWGJXEV)
 
-<img src="/images/projects/proj_cheryInternationalHome/factoryVisit-prototype.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/factoryVisit-prototype.gif" />
 
 *The prototype I built to test this new technology*
 
@@ -105,6 +105,6 @@ I tried to build this feature with Swiper.js, however there are significant glit
 
 [*https://www.youtube.com/watch?v=LmjHp9AFCqU*](https://www.youtube.com/watch?v=LmjHp9AFCqU)
 
-<img src="/images/projects/proj_cheryInternationalHome/numberAnim-prototype.gif" />
+<img src="/images/articles/proj_cheryInternationalHome/numberAnim-prototype.gif" />
 
 *testing environment I set up to test the Codepen demo and the Youtube video mentioned above*

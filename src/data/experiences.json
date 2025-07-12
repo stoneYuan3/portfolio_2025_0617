@@ -2,16 +2,25 @@
     {
         "id": "exp_alberni",
         "title": "Alberni Online",
-        "teaserDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt erat.",
+        "teaserDesc": "Work as a front-end web developer for Alberni Online",
         "teaserImg": "alberniOnline.png",
         "dateStart": "2024/09",
         "dateEnd": "Today",
         "workTitle": "Front-end Developer"
     },
     {
+        "id": "exp_2025Election",
+        "title": "Federal Conservative Party, 2025 Election Campaign",
+        "teaserDesc": "Doing election canvassing for the Federal Conservative Party in 2025 Federal election of Canada",
+        "teaserImg": "conservativePartyOfCanada.png",
+        "dateStart": "2025/01",
+        "dateEnd": "2025/05",
+        "workTitle": "Campaign Canvasser"
+    },
+    {
         "id": "exp_sela",
         "title": "The Sela Project Team",
-        "teaserDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt erat.",
+        "teaserDesc": "Develop a Bible poetry reader for an enthusiastic volunteer team using Next.js",
         "teaserImg": "sela.svg",
         "dateStart": "2024/06",
         "dateEnd": "Today",
@@ -20,7 +29,7 @@
     {
         "id": "exp_pmpark",
         "title": "PM Park Inc.",
-        "teaserDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel tincidunt erat.",
+        "teaserDesc": "Work as a front-end developer intern at PM Park Inc.",
         "teaserImg": "pmpark.jpg",
         "dateStart": "2023/05",
         "dateEnd": "2023/09",

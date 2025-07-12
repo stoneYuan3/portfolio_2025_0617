@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-row">
+        <div className="flex flex-row max-[1000px]:flex-col">
           <NavMain />
           <div className="flex flex-col py-[64px] w-[100%]">
             {children}

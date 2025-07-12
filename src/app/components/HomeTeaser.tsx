@@ -38,10 +38,10 @@ export const HomeTeaser = ({
 
     return (
         <Link href={`/gallery/${groupName}/${value.id}`} className="flex flex-row gap-[3rem] items-center">
-            <div className="w-[18rem] h-[12rem]" >
-                <img className="w-[100%] h-[100%] object-cover" src={`/images/teasers/${value.teaserImg}`} />
+            <div className="w-[17rem] h-[12rem]" >
+                <img className="w-[17rem] h-[12rem] object-cover" src={`/images/teasers/${value.teaserImg}`} />
             </div>
-            <div className="flex flex-col gap-[16px] max-w-[480px]">
+            <div className="flex flex-col gap-[16px] max-w-[480px] w-[100%]">
                 <h3>{value.title}</h3>
                 <p>{value.teaserDesc} </p>
                 <p><strong>{value.teaserCaption}</strong></p>

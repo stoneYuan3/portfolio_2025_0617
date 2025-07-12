@@ -14,8 +14,8 @@ export const NavMain = () => {
     ]
 
     return (
-        <div className="py-[48px] px-[62px] w-[230px]">
-            <nav className="fixed flex flex-col gap-[52px]">
+        <div className="py-[48px] px-[62px] w-[230px] max-[1000px]:w-full">
+            <nav className="fixed flex flex-col gap-[52px] max-[1000px]:relative max-[1000px]:items-center max-[1000px]:gap-[30px]">
                 <div className="logo">
                     <Link className="flex flex-col items-center gap-[16px]" href="/">
                         <img className="w-[36px] h-auto" src="/images/logo.svg" />
@@ -23,7 +23,7 @@ export const NavMain = () => {
                     </Link>
                 </div>
 
-                <div className="flex flex-col items-center gap-[36px]">
+                <div className="flex flex-col items-center gap-[36px] max-[1000px]:flex-row">
                     {links.map((link) => (
                         <Link
                             key={link.href}
@@ -35,7 +35,7 @@ export const NavMain = () => {
                     ))}
                 </div>
 
-                <div className="flex flex-col items-center gap-[12px] links-external">
+                <div className="flex flex-col items-center gap-[12px] links-external max-[1000px]:flex-row">
                     <a href="https://github.com/stoneYuan3"><img src="/images/icons/link-github.svg" /><p>Github</p></a>
                     <a href="https://www.linkedin.com/in/stone-yuan-10a269222/"><img src="/images/icons/link-linkedin.svg" /><p>Linkedin</p></a>
 

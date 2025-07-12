@@ -30,6 +30,16 @@
     "relatedExperience": "exp_pmpark"
   },
   {
+    "id": "proj_isaPoster",
+    "title": "Research Institute Website Banners",
+    "teaserDesc": "Designed website banners using Photoshop",
+    "teaserImg": "teaser_isaBanners.png",
+    "teaserCaption": "Internship Project, individual, 2022",
+    "isFeatured": true,
+    "projType": "graphic",
+    "relatedExperience": "exp_sfuIsa"
+  },  
+  {
     "id": "proj_willFaliureFilm",
     "title": "Short Movie \"Failure of the Will\"",
     "teaserDesc": "Produced a 1-minute film from plotting to filming, editing with Premier and sound effect making",

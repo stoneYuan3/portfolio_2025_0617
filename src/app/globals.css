@@ -109,7 +109,8 @@ h5 {
 .article__body em {
   color: darkgray;
 }
-.article__body a {
+.article__body a,
+.article__body a em {
   color: brown;
   text-decoration: underline;
 }

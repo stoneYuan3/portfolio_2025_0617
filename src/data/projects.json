@@ -40,6 +40,16 @@
     "relatedExperience": "exp_pmpark"
   },
   {
+    "id": "proj_hanfuClubPosters",
+    "title": "Poster Design for Hanfu and Sinology Club",
+    "teaserDesc": "Designed posters using Figma and Photoshop",
+    "teaserImg": "teaser_hanfuPoster.png",
+    "teaserCaption": "Volunteer Project, individual, 2025",
+    "isFeatured": true,
+    "projType": "graphic",
+    "relatedExperience": ""
+  },   
+  {
     "id": "proj_isaPoster",
     "title": "Research Institute Website Banners",
     "teaserDesc": "Designed website banners using Photoshop",

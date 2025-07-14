@@ -10,6 +10,16 @@
     "relatedExperience": "exp_sela"
   },
   {
+    "id": "proj_p4n",
+    "title": "Pray For Nations Website",
+    "teaserDesc": "A Drupal Website",
+    "teaserImg": "teaser_p4n.png",
+    "teaserCaption": "Work Project, 2024",
+    "isFeatured": true,
+    "projType": "programming",
+    "relatedExperience": "exp_alberni"
+  }, 
+  {
     "id": "proj_jetourDemo",
     "title": "Jetour Home Page Demo Development",
     "teaserDesc": "Develop a demo based on design documents for client view with HTML, CSS, Jquery and Swiper.js, featuring complex banner animation",

@@ -8,6 +8,7 @@ import remarkRehype from 'remark-rehype';
 import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
 
+//processing markdown file to html file
 export const useMdFetcher = async (dir:string, id:string) => {
 
   const filePath = path.join(process.cwd(), dir, `${id}.md`);
@@ -16,7 +17,7 @@ export const useMdFetcher = async (dir:string, id:string) => {
   const markdown = fs.readFileSync(filePath, 'utf-8');
   
   const result = await remark()
-    .use(remarkImagePrefix)
+    .use(remarkImagePrefix(id)) //convert image link
     .use(html)
     .use(remarkRehype, { allowDangerousHtml: true }) // Convert Markdown to HTML
     .use(rehypeRaw) // 🐾 Allow raw HTML like <iframe>

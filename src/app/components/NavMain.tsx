@@ -10,7 +10,7 @@ export const NavMain = () => {
         { href: '/', label: 'Gallery' },
         { href: '/experience', label: 'Experience' },
         { href: '/about', label: 'About Me' },
-        { href: '/playground', label: 'Playground' },
+        // { href: '/playground', label: 'Playground' },
     ]
 
     return (

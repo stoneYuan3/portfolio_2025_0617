@@ -50,6 +50,16 @@
     "relatedExperience": ""
   },   
   {
+    "id": "proj_churchPosters",
+    "title": "Poster Design for Christian Communities",
+    "teaserDesc": "Designed posters using Figma and Photoshop",
+    "teaserImg": "teaser_churchPoster.png",
+    "teaserCaption": "Volunteer Project, individual, 2024-2025",
+    "isFeatured": true,
+    "projType": "graphic",
+    "relatedExperience": ""
+  },    
+  {
     "id": "proj_isaPoster",
     "title": "Research Institute Website Banners",
     "teaserDesc": "Designed website banners using Photoshop",

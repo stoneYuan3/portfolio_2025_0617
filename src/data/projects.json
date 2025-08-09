@@ -10,15 +10,35 @@
     "relatedExperience": "exp_sela"
   },
   {
+    "id": "proj_scoop",
+    "title": "The Scoop on Port Alberni Website",
+    "teaserDesc": "A Next.js Site with Headless Drupal Backend",
+    "teaserImg": "teaser_scoop.png",
+    "teaserCaption": "Work Project, 2025",
+    "isFeatured": true,
+    "projType": "programming",
+    "relatedExperience": "exp_alberni"
+  },
+  {
+    "id": "proj_adtu",
+    "title": "Alberni District Teacher's Union Website",
+    "teaserDesc": "A Drupal Website",
+    "teaserImg": "teaser_adtu.png",
+    "teaserCaption": "Work Project, 2025",
+    "isFeatured": false,
+    "projType": "programming",
+    "relatedExperience": "exp_alberni"
+  },
+  {
     "id": "proj_p4n",
     "title": "Pray For Nations Website",
     "teaserDesc": "A Drupal Website",
     "teaserImg": "teaser_p4n.png",
     "teaserCaption": "Work Project, 2024",
-    "isFeatured": true,
+    "isFeatured": false,
     "projType": "programming",
     "relatedExperience": "exp_alberni"
-  }, 
+  },  
   {
     "id": "proj_jetourDemo",
     "title": "Jetour Home Page Demo Development",
@@ -48,7 +68,7 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": ""
-  },   
+  },
   {
     "id": "proj_churchPosters",
     "title": "Poster Design for Christian Communities",
@@ -58,7 +78,7 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": ""
-  },    
+  },
   {
     "id": "proj_isaPoster",
     "title": "Research Institute Website Banners",
@@ -68,7 +88,7 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": "exp_sfuIsa"
-  },  
+  },
   {
     "id": "proj_willFaliureFilm",
     "title": "Short Movie \"Failure of the Will\"",

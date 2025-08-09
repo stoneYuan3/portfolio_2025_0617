@@ -15,7 +15,7 @@ export default async function ExperiencePage({
   const contentHtml = await useMdFetcher("src/markdown/experience", id)
 
   const experience_name = id;
-  const filteredData = data.filter(item => item.relatedExperience === experience_name && item.isFeatured);
+  const filteredData = data.filter(item => item.relatedExperience === experience_name);
 
   return (
 

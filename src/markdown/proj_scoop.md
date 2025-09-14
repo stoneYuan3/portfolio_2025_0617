@@ -22,7 +22,7 @@ June-July 2025
 
 **Website Link**
 
-add demo here
+[https://scoop.next.expm.albernihosting.ca/](https://scoop.next.expm.albernihosting.ca/)
 
 ### Intro
 

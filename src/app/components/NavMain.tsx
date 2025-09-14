@@ -13,6 +13,10 @@ export const NavMain = () => {
         // { href: '/playground', label: 'Playground' },
     ]
 
+    if (pathname.startsWith("/collection/")) {
+        return null;
+    }
+
     return (
         <div className="py-[48px] px-[62px] w-[230px] max-[1000px]:w-full max-[450px]:px-[24px] max-[450px]:py-[24px]">
             <nav className="fixed flex flex-col gap-[52px] max-[1000px]:relative max-[1000px]:items-center max-[1000px]:gap-[30px]">

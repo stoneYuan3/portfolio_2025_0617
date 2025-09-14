@@ -128,6 +128,14 @@ h5 {
   list-style: initial;
 }
 
+.collection {
+  max-width: 50rem;
+}
+.collection .article__body {
+  margin: auto;
+  text-align: left;
+}
+
 @media (max-width: 1350px) {
   .article__body iframe, 
   .article__body img {

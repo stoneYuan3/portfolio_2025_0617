@@ -31,4 +31,5 @@ export default function Home() {
 //   isFeatured: boolean;
 //   projType: string;
 //   relatedExperience: string;
+//   relatedCollection: string;
 // };

@@ -135,6 +135,9 @@ h5 {
   margin: auto;
   text-align: left;
 }
+.mdm_intro p {
+  margin-bottom: 1rem;
+}
 
 @media (max-width: 1350px) {
   .article__body iframe, 

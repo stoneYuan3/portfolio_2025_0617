@@ -1,7 +1,5 @@
 
-import Image from "next/image";
 import data from '../../data/projects.json'
-import Link from "next/link";
 import { HomeTeaserContainer } from "../components/HomeTeaser";
 import { HomeLandingIntro } from "../components/HomeLandingIntro";
 import { HomeTypeNav } from "../components/HomeTypeNav";

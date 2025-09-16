@@ -10,7 +10,7 @@ export default function About() {
                 </div>
                 <p>Graduated from Simon Fraser University, School of Interactive Arts and Technology (Bachelor of Art) in June 2024.</p>
                 <p>Focuses on web development but enjoys all kinds of crafting and creative activities, no matter digital or physical.</p>
-                <p>Currently Working as Alberni Online's web developer, volunteering as the front-end developer of the Sela Project team, the photographer of Vancouver Hanfu Culture Association and the graphic designer of Vancouver Christian Arts Fellowship.</p>
+                <p>Currently Working as Alberni Online&apos;s web developer, volunteering as the front-end developer of the Sela Project team, the photographer of Vancouver Hanfu Culture Association and the graphic designer of Vancouver Christian Arts Fellowship.</p>
             </div>
         </div>
     )

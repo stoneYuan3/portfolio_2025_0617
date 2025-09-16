@@ -1,9 +1,19 @@
 import Link from "next/link"
 
+type ExperienceData = {
+    id: string;
+    title: string;
+    teaserDesc: string;
+    teaserImg: string;
+    dateStart: string;
+    dateEnd: string;
+    workTitle: string;
+}
+
 export const ExperienceTeaserContainer = ({
     data,
 }: {
-    data: any[],
+    data: ExperienceData[],
 }) => {
 
     return (
@@ -22,15 +32,7 @@ export const ExperienceTeaserContainer = ({
 export const ExperienceTeaser = ({
     value,
 }: {
-    value: {
-        id: string,
-        teaserImg: string,
-        title: string,
-        teaserDesc: string,
-        dateStart: string,
-        dateEnd: string,
-        workTitle: string
-    },
+    value: ExperienceData,
 }) => {
 
     return (

@@ -1,12 +1,23 @@
 
-import Link from "next/link"
 import { DefaultTeaserDisplay } from "./defaultTeaserDisplay"
 
-export const HomeTeaserContainer = ({ 
+type ProjectData = {
+    id: string;
+    title: string;
+    teaserDesc: string;
+    teaserImg: string;
+    teaserCaption: string;
+    isFeatured: boolean;
+    projType: string;
+    relatedExperience: string;
+    relatedCollection: string;
+}
+
+export const HomeTeaserContainer = ({
     data,
-    groupName 
+    groupName
 }: {
-    data: any[],
+    data: ProjectData[],
     groupName: string
 }) => {
 
@@ -27,13 +38,7 @@ export const HomeTeaser = ({
     value,
     groupName
 }: {
-    value: {
-        id: string,
-        teaserImg: string,
-        title: string,
-        teaserDesc: string,
-        teaserCaption: string
-    },
+    value: ProjectData,
     groupName: string;
 }) => {
 

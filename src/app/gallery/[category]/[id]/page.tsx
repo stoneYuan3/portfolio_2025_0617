@@ -1,20 +1,20 @@
-import { useMdFetcher } from '@/hooks/useMdFetcher';
+import { fetchMdContent } from '@/hooks/useMdFetcher';
 import Link from 'next/link';
 
 export default async function ProjectPage({
   params,
 }: {
-  params: { category: string; id: string }
+  params: Promise<{ category: string; id: string }>
 }) {
 
-  const { category, id } = params;
-  const getBackLink = () => {   
-    if (params.category) {
-      if (params.category === 'programming') {
+  const { category, id } = await params;
+  const getBackLink = () => {
+    if (category) {
+      if (category === 'programming') {
         return '/'
       }
       else {
-        return `/${params.category}`
+        return `/${category}`
       }
     }
     else {
@@ -22,7 +22,7 @@ export default async function ProjectPage({
     }
   };
   
-  const contentHtml = await useMdFetcher("src/markdown", id)
+  const contentHtml = await fetchMdContent("src/markdown", id)
 
   return (
     <>

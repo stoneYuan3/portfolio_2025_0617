@@ -9,7 +9,7 @@ import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
 
 //processing markdown file to html file
-export const useMdFetcher = async (dir:string, id:string) => {
+export const fetchMdContent = async (dir:string, id:string) => {
 
   const filePath = path.join(process.cwd(), dir, `${id}.md`);
   console.log(filePath)

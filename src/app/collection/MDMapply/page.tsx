@@ -1,8 +1,6 @@
 
 import data from '../../../data/projects.json'
 
-import { HomeTeaserContainer } from "../../components/HomeTeaser";
-import { HomeLandingIntro } from "../../components/HomeLandingIntro";
 import { DefaultTeaserDisplay } from '@/app/components/defaultTeaserDisplay';
 
 export default function MDMapplyPage() {
@@ -13,7 +11,7 @@ export default function MDMapplyPage() {
     <>
       <div className="page__body flex flex-col m-auto">
         <div className="mb-[3rem] text-left mdm_intro">
-          <h1 className='mb-[2rem]'>Shucong's Portfolio</h1>
+          <h1 className='mb-[2rem]'>Shucong&apos;s Portfolio</h1>
           <p>a 250-500 word summary explaining how the items in the collection relate to each other and to your strengths.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo neque ac lorem euismod fringilla. Etiam at pulvinar odio. Praesent in mi metus. In eget odio vel tortor aliquet maximus eget eget tellus. Ut malesuada mi efficitur, volutpat est id, tincidunt ante. Sed consectetur commodo risus at sagittis. Donec pretium condimentum nisi, eget vestibulum justo euismod vitae. Duis sollicitudin, ante eu hendrerit maximus, risus augue porttitor elit, id rhoncus nibh turpis eget arcu. Etiam sed aliquet ligula, ac ultricies metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pretium libero non interdum interdum. Etiam sit amet pellentesque mauris, at maximus velit. Maecenas porttitor odio quis ante vestibulum semper. Praesent ornare laoreet tempor. Suspendisse tincidunt turpis eget nisi convallis, ut venenatis purus ornare. Phasellus et eros at arcu vehicula tristique vel ornare elit.</p>
 

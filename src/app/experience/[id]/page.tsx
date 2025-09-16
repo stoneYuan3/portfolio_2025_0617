@@ -1,18 +1,18 @@
 
 
 import Link from 'next/link';
-import { useMdFetcher } from '@/hooks/useMdFetcher';
+import { fetchMdContent } from '@/hooks/useMdFetcher';
 import data from '../../../data/projects.json'
 import { InlineTeaserContainer } from '@/app/components/InlineProjectTeaser';
 
 export default async function ExperiencePage({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
 
-  const { id } = params;
-  const contentHtml = await useMdFetcher("src/markdown/experience", id)
+  const { id } = await params;
+  const contentHtml = await fetchMdContent("src/markdown/experience", id)
 
   const experience_name = id;
   const filteredData = data.filter(item => item.relatedExperience === experience_name);

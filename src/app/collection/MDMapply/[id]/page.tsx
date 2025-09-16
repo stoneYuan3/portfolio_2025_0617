@@ -1,15 +1,15 @@
-import { useMdFetcher } from '@/hooks/useMdFetcher';
+import { fetchMdContent } from '@/hooks/useMdFetcher';
 import Link from 'next/link';
 
 export default async function ProjectPage({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
 
-  const { id } = params;
+  const { id } = await params;
   
-  const contentHtml = await useMdFetcher("src/markdown", id)
+  const contentHtml = await fetchMdContent("src/markdown", id)
 
   return (
     <>

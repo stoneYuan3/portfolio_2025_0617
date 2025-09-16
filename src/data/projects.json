@@ -77,6 +77,17 @@
     "relatedCollection": ""
   },
   {
+    "id": "proj_publisher",
+    "title": "Publisher Wizard App",
+    "teaserDesc": "An app that helps book lovers to print their own book with a regular printer and standard paper supplies.",
+    "teaserImg": "teaser_publisher.png",
+    "teaserCaption": "Hobby Project, individual, 2025",
+    "isFeatured": false,
+    "projType": "programming",
+    "relatedExperience": "",
+    "relatedCollection": "MDMapply"
+  },  
+  {
     "id": "proj_gardenApp",
     "title": "Community Garden Network App",
     "teaserDesc": "Designed an app for community garden user network through field-study, user interview and prototyping with Figma and Protopie",

@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { remark } from 'remark';
 import html from 'remark-html';
-import remarkImagePrefix from '@/lib/remark-image-prefix';
+import { remarkFilePrefix } from '@/lib/remark-image-prefix';
 import remarkRehype from 'remark-rehype';
 import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
@@ -17,7 +17,7 @@ export const fetchMdContent = async (dir:string, id:string) => {
   const markdown = fs.readFileSync(filePath, 'utf-8');
   
   const result = await remark()
-    .use(remarkImagePrefix(id)) //convert image link
+    .use(remarkFilePrefix(id)) //convert image link
     .use(html)
     .use(remarkRehype, { allowDangerousHtml: true }) // Convert Markdown to HTML
     .use(rehypeRaw) // 🐾 Allow raw HTML like <iframe>

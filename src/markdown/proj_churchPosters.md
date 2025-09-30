@@ -1,8 +1,5 @@
 # Poster Design for Christian Community
 
-Created by: Stone Yuan
-Category: Graphics & Arts, Project
-Status: Done
 
 ### Intro
 

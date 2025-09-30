@@ -15,7 +15,7 @@ export const DefaultTeaserDisplay = ({value, link}: {
     return (
         <Link href={link} className="flex flex-row gap-[3rem] items-center max-[575px]:flex-col">
             <div className="w-[17rem] h-[12rem] max-[575px]:w-full max-[575px]:h-[14rem] shrink-0" >
-                <img className="w-[17rem] h-[12rem] object-cover max-[575px]:w-full max-[575px]:h-[14rem]" src={`/images/teasers/${value.teaserImg}`} />
+                <img className="object-left w-[17rem] h-[12rem] object-cover max-[575px]:w-full max-[575px]:h-[14rem]" src={`/images/teasers/${value.teaserImg}`} />
             </div>
             <div className="flex flex-col gap-[16px] max-w-[480px] w-[100%]">
                 <h3>{value.title}</h3>

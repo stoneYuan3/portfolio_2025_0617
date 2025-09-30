@@ -1,10 +1,11 @@
-
+import { ShortSelfIntro } from "./ShortSelfIntro"
 
 export const HomeLandingIntro = () => {
 
     return (
-        <div className="mb-[3rem]">
-          <h1>Featured Projects</h1>
+        <div>
+          <h1 className="mb-[3rem]">Featured Projects</h1>
+          <ShortSelfIntro />        
         </div>
     )
 }

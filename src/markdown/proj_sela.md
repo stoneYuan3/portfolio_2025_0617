@@ -1,8 +1,5 @@
 # The Sela Project
 
-Created by: Stone Yuan
-Category: Programming, Project
-Status: Done
 
 ![teaser_sela.png](teaser_sela.png)
 

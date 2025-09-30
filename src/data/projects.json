@@ -27,7 +27,7 @@
     "teaserDesc": "A Drupal Website",
     "teaserImg": "teaser_outreach.png",
     "teaserCaption": "Work Project, 2025",
-    "isFeatured": true,
+    "isFeatured": false,
     "projType": "programming",
     "relatedExperience": "exp_alberni",
     "relatedCollection": "MDMapply"
@@ -38,10 +38,10 @@
     "teaserDesc": "A Drupal Website",
     "teaserImg": "teaser_adtu.png",
     "teaserCaption": "Work Project, 2025",
-    "isFeatured": false,
+    "isFeatured": true,
     "projType": "programming",
     "relatedExperience": "exp_alberni",
-    "relatedCollection": ""
+    "relatedCollection": "MDMapply"
   },
   {
     "id": "proj_p4n",
@@ -87,6 +87,17 @@
     "relatedExperience": "",
     "relatedCollection": "MDMapply"
   },  
+  {
+    "id": "proj_garage",
+    "title": "Garage, Artwork Sharing Platform",
+    "teaserDesc": "Lead a group of three to develop a full stack project with HTML/CSS/JQuery front end and PHP/MySQL back end based on Figma design documents",
+    "teaserImg": "teaser_garage.png",
+    "teaserCaption": "School Project, Group, 2022",
+    "isFeatured": true,
+    "projType": "programming",
+    "relatedExperience": "",
+    "relatedCollection": ""
+  },    
   {
     "id": "proj_gardenApp",
     "title": "Community Garden Network App",

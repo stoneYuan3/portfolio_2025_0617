@@ -109,8 +109,10 @@ h5 {
 .article__body em {
   color: darkgray;
 }
+.galleryIntro a,
 .article__body a,
-.article__body a em {
+.article__body a em,
+.about a {
   color: brown;
   text-decoration: underline;
 }
@@ -138,6 +140,64 @@ h5 {
 .mdm_intro p {
   margin-bottom: 1rem;
 }
+
+.button__outline {
+  padding: 4px 18px;
+  border: 2px solid #2E2E2E;
+  /* background: #2E2E2E; */
+  /* color: white; */
+  border-radius: 40px;
+  width: fit-content;
+}
+
+
+.section-about .charaTags, .galleryIntro .charaTags{
+    font-size: 1.75rem;
+    line-height: 3rem;
+}
+.galleryIntro .charaTags{
+    max-width: 35rem;
+}
+.galleryIntro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:1.5rem;
+    margin-bottom: 3rem;
+}
+.galleryIntro .galleryIntroName{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 4rem;
+}
+.galleryIntro .galleryIntroName p:nth-child(2),
+.galleryIntro .galleryIntroName p:nth-child(3){
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+.galleryIntro .galleryIntroName p:nth-child(3){
+    font-size: 3.25rem;
+}
+@media (max-width: 645px) {
+  .galleryIntro {
+    flex-direction: column;
+    gap: 36px;
+    align-items: flex-start;
+  }
+  .galleryIntro .galleryIntroName {
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap
+  }
+  .galleryIntro .galleryIntroName p {
+    font-size: 2.5rem !important;
+    line-height: 3rem !important
+  }
+}
+
+
 
 @media (max-width: 1350px) {
   .article__body iframe, 

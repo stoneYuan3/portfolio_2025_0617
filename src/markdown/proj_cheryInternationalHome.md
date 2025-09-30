@@ -1,7 +1,5 @@
 # Chery International Home Page Development
 
-Created by: Stone Yuan
-Category: Programming, Project
 
 ### Type:
 

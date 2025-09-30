@@ -1,5 +1,9 @@
 # Jetour Home Page Demo Development
 
+Created by: Stone Yuan
+Category: Programming, Project
+Status: Done
+
 ### Type:
 
 Front-end development
@@ -16,13 +20,27 @@ Front-end development Internship project
 
 August 2023
 
-Part of the Jetour website maintenance project mentioned in the resume. Asked to fix the Vue.js and React.js powered map page of the original Jetour website. The original map page had issues with search bars and broken layout consistency in mobile and different language versions.
+### Relevant Code
 
-Added a Vue.js powered search bar and fixed layout glitches in right-to-left language versions and mobile versions with the Swiper.js plugin.
+The links listed below were written by me for this project
+
+**HTML**
+
+[https://github.com/stoneYuan3/jeTourDemo3/blob/master/index.html](https://github.com/stoneYuan3/jeTourDemo3/blob/master/index.html)
+
+**CSS**
+
+[https://github.com/stoneYuan3/jeTourDemo3/blob/master/styles/themes.css](https://github.com/stoneYuan3/jeTourDemo3/blob/master/styles/themes.css)
+
+**JQuery**
+
+[https://github.com/stoneYuan3/jeTourDemo3/blob/master/script/global.js](https://github.com/stoneYuan3/jeTourDemo3/blob/master/script/global.js)
+
+Asked to develop a home page demo for Jetour’s home page based on design specifications from the design team. Developed a home page demo with complex animation using HTML, CSS, JQuery and the Swiper.js slider plug-in.
 
 ## Gain:
 
-Practised my Vue.js skill by putting the knowledge I learnt in my own time before this project. Had an increased understanding towards compatibility issues across different languages.
+Gain advanced knowledge on implementing complex animation for websites.
 
 ## Demo:
 
@@ -57,3 +75,7 @@ The base for the banner animation is done at this moment, however, a new issue a
 *Screen record for a quick report to my co-worker demonstrating the issue*
 
 To solve this issue, I attempted to scale up the images during the transition, hoping this would be enough to cover the entire banner area. However, it appears that scaling the image a little is not sufficient while scaling the image too much will break the animation. To tackle the issue, I requested the design team to make the images square and applied a small scale up to images during transitions to achieve the desired result.
+
+![jetourBanner-codeAndBg.png](jetourBanner-codeAndBg.png)
+
+*Left: The code that scales the image up. Right: The background image. I asked the design team to provide a square background.*

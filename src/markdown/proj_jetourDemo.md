@@ -76,6 +76,6 @@ The base for the banner animation is done at this moment, however, a new issue a
 
 To solve this issue, I attempted to scale up the images during the transition, hoping this would be enough to cover the entire banner area. However, it appears that scaling the image a little is not sufficient while scaling the image too much will break the animation. To tackle the issue, I requested the design team to make the images square and applied a small scale up to images during transitions to achieve the desired result.
 
-![jetourBanner-codeAndBg.png](jetourBanner-codeAndBg.png)
+<img src="/images/articles/jetourDemo/jetourBanner-codeAndBg.png" />
 
 *Left: The code that scales the image up. Right: The background image. I asked the design team to provide a square background.*

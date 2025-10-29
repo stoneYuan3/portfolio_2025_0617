@@ -152,5 +152,16 @@
     "projType": "graphic",
     "relatedExperience": "",
     "relatedCollection": ""
+  },
+  {
+    "id": "proj_northsideRedesign",
+    "title": "Northside Foursquare Church Website Re-design",
+    "teaserDesc": "Designed a new volunteer sign-up process for the client in a group of 3, planned and executed a full plan including user research, prototyping and user testing under time constraints",
+    "teaserImg": "banner-northsideWeb.png",
+    "teaserCaption": "School Project, Group, 2023",
+    "isFeatured": false,
+    "projType": "uiux",
+    "relatedExperience": "",
+    "relatedCollection": ""    
   }
 ]

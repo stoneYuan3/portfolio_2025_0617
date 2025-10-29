@@ -143,6 +143,17 @@
     "relatedCollection": ""
   },
   {
+    "id": "proj_cmcPoster",
+    "title": "Hand Drawn Posters for Coquitlam Mandarin Church",
+    "teaserDesc": "Posters designed for Sunday sermons, many are hand drawn",
+    "teaserImg": "teaser_cmcPoster.png",
+    "teaserCaption": "Volunteer Project, individual, 2021",
+    "isFeatured": true,
+    "projType": "graphic",
+    "relatedExperience": "",
+    "relatedCollection": ""
+  }, 
+  {
     "id": "proj_willFaliureFilm",
     "title": "Short Movie \"Failure of the Will\"",
     "teaserDesc": "Produced a 1-minute film from plotting to filming, editing with Premier and sound effect making",

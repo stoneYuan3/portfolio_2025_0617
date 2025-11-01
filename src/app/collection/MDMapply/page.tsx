@@ -5,7 +5,7 @@ import { DefaultTeaserDisplay } from '@/app/components/defaultTeaserDisplay';
 
 export default function MDMapplyPage() {
 
-  const collectionData = data.filter(item => item.relatedCollection === "MDMapply");
+  const collectionData = data.filter(item => item.relatedCollection.includes("MDMapply"));
 
   return (
     <>

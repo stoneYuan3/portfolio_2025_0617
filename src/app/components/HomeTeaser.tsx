@@ -10,7 +10,7 @@ type ProjectData = {
     isFeatured: boolean;
     projType: string;
     relatedExperience: string;
-    relatedCollection: string;
+    relatedCollection: string[];
 }
 
 export const HomeTeaserContainer = ({

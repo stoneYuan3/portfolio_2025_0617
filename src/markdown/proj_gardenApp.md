@@ -1,5 +1,7 @@
 # Community Garden Network App
 
+![banner-communityGarden.png](banner-communityGarden.png)
+
 ### Type:
 
 UI/UX design
@@ -15,8 +17,6 @@ School Project, Group
 ### Time:
 
 2022
-
-### Links:
 
 [Prototype Link](https://cloud.protopie.io/p/cf3f94f3db)
 
@@ -34,13 +34,13 @@ The initial problem that we were focusing on is the lack of connection between s
 
 Based on our research, our initial idea was to develop a local farm map that also links to an online farm market, but we soon find that existing platforms such as Etsy already solves the issue to some extent based on the feedback we got.
 
-![Frame 11.png](Frame_11.png)
+![Frame 12.png](Frame_12.png)
 
 *Some early prototypes of our farm store idea. Left to Right: Find other people's farms on map, check other people's farm produce, and start your own farm market*
 
 We then went back to some abandoned brainstorming ideas we had before. Some of our brainstorming ideas involve setting up information boards in community gardens or encouraging bartering within the local garden enthusiast community. We visited some community gardens to explore those possibilities.
 
-![Frame 10.png](Frame_10.png)
+![Frame 13.png](Frame_13.png)
 
 *Some community farms that we visited*
 

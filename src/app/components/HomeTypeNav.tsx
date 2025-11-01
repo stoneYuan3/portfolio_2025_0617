@@ -8,6 +8,7 @@ export const HomeTypeNav = () => {
 
     const links = [
         { href: '/', label: 'Programming' },
+        { href: '/uiux', label: 'UI/UX Design' },
         { href: '/graphic', label: 'Graphic Design & Arts' },
     ]
 

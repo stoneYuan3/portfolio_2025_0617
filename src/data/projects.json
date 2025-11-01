@@ -8,7 +8,7 @@
     "isFeatured": true,
     "projType": "programming",
     "relatedExperience": "exp_sela",
-    "relatedCollection": "MDMapply"
+    "relatedCollection": ["MDMapply"]
   },
   {
     "id": "proj_scoop",
@@ -19,7 +19,7 @@
     "isFeatured": false,
     "projType": "programming",
     "relatedExperience": "exp_alberni",
-    "relatedCollection": ""
+    "relatedCollection": []
   },
   {
     "id": "proj_outreach",
@@ -30,8 +30,8 @@
     "isFeatured": false,
     "projType": "programming",
     "relatedExperience": "exp_alberni",
-    "relatedCollection": "MDMapply"
-  },  
+    "relatedCollection": ["MDMapply"]
+  },
   {
     "id": "proj_adtu",
     "title": "Alberni District Teacher's Union Website",
@@ -41,7 +41,7 @@
     "isFeatured": true,
     "projType": "programming",
     "relatedExperience": "exp_alberni",
-    "relatedCollection": "MDMapply"
+    "relatedCollection": ["MDMapply"]
   },
   {
     "id": "proj_p4n",
@@ -52,8 +52,8 @@
     "isFeatured": false,
     "projType": "programming",
     "relatedExperience": "exp_alberni",
-    "relatedCollection": ""
-  },  
+    "relatedCollection": []
+  },
   {
     "id": "proj_jetourDemo",
     "title": "Jetour Home Page Demo Development",
@@ -63,7 +63,7 @@
     "isFeatured": true,
     "projType": "programming",
     "relatedExperience": "exp_pmpark",
-    "relatedCollection": "MDMapply"
+    "relatedCollection": ["MDMapply"]
   },
   {
     "id": "proj_cheryInternationalHome",
@@ -74,7 +74,7 @@
     "isFeatured": true,
     "projType": "programming",
     "relatedExperience": "exp_pmpark",
-    "relatedCollection": ""
+    "relatedCollection": []
   },
   {
     "id": "proj_publisher",
@@ -85,8 +85,8 @@
     "isFeatured": false,
     "projType": "programming",
     "relatedExperience": "",
-    "relatedCollection": "MDMapply"
-  },  
+    "relatedCollection": ["MDMapply"]
+  },
   {
     "id": "proj_garage",
     "title": "Garage, Artwork Sharing Platform",
@@ -96,19 +96,19 @@
     "isFeatured": true,
     "projType": "programming",
     "relatedExperience": "",
-    "relatedCollection": ""
-  },    
+    "relatedCollection": []
+  },
   {
     "id": "proj_gardenApp",
     "title": "Community Garden Network App",
     "teaserDesc": "Designed an app for community garden user network through field-study, user interview and prototyping with Figma and Protopie",
     "teaserImg": "teaser_garden.png",
     "teaserCaption": "School Project, Group, 2022",
-    "isFeatured": false,
-    "projType": "graphic",
+    "isFeatured": true,
+    "projType": "uiux",
     "relatedExperience": "",
-    "relatedCollection": ""
-  },  
+    "relatedCollection": []
+  },
   {
     "id": "proj_hanfuClubPosters",
     "title": "Poster Design for Hanfu and Sinology Club",
@@ -118,7 +118,7 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": "",
-    "relatedCollection": "MDMapply"
+    "relatedCollection": ["MDMapply"]
   },
   {
     "id": "proj_churchPosters",
@@ -129,7 +129,7 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": "",
-    "relatedCollection": ""
+    "relatedCollection": []
   },
   {
     "id": "proj_isaPoster",
@@ -140,7 +140,7 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": "exp_sfuIsa",
-    "relatedCollection": ""
+    "relatedCollection": []
   },
   {
     "id": "proj_cmcPoster",
@@ -151,8 +151,19 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": "",
-    "relatedCollection": ""
-  }, 
+    "relatedCollection": []
+  },
+  {
+    "id": "proj_northsideRedesign",
+    "title": "Northside Foursquare Church Website Re-design",
+    "teaserDesc": "Designed a new volunteer sign-up process for the client in a group of 3, planned and executed a full plan including user research, prototyping and user testing under time constraints",
+    "teaserImg": "banner-northsideWeb.png",
+    "teaserCaption": "School Project, Group, 2023",
+    "isFeatured": true,
+    "projType": "uiux",
+    "relatedExperience": "",
+    "relatedCollection": []
+  },  
   {
     "id": "proj_willFaliureFilm",
     "title": "Short Movie \"Failure of the Will\"",
@@ -162,17 +173,17 @@
     "isFeatured": true,
     "projType": "graphic",
     "relatedExperience": "",
-    "relatedCollection": ""
+    "relatedCollection": []
   },
   {
-    "id": "proj_northsideRedesign",
-    "title": "Northside Foursquare Church Website Re-design",
-    "teaserDesc": "Designed a new volunteer sign-up process for the client in a group of 3, planned and executed a full plan including user research, prototyping and user testing under time constraints",
-    "teaserImg": "banner-northsideWeb.png",
-    "teaserCaption": "School Project, Group, 2023",
-    "isFeatured": false,
+    "id": "proj_garageDesign",
+    "title": "Artwork Sharing Platform Design",
+    "teaserDesc": "Designed key web pages and style guides for a fictional art-sharing website using Figma",
+    "teaserImg": "banner-garageDesign.png",
+    "teaserCaption": "School Project, Individual, 2022",
+    "isFeatured": true,
     "projType": "uiux",
     "relatedExperience": "",
-    "relatedCollection": ""    
+    "relatedCollection": []
   }
 ]

@@ -36,7 +36,7 @@ export const ExperienceTeaser = ({
 }) => {
 
     return (
-        <Link href={`/experience/${value.id}`} className="flex flex-row gap-[4rem] items-center max-[575px]:flex-col">
+        <Link href={`experience/${value.id}`} className="flex flex-row gap-[4rem] items-center max-[575px]:flex-col">
             <div className="w-[12rem] h-[12rem] max-[575px]:w-full max-[575px]:h-[14rem] shrink-0" >
                 <img className="w-[12rem] h-[12rem] object-contain max-[575px]:w-full max-[575px]:h-[14rem]" src={`/images/logos/${value.teaserImg}`} />
             </div>

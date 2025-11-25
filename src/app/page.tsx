@@ -4,6 +4,12 @@ import { HomeTeaserContainer } from "./components/HomeTeaser";
 import { HomeLandingIntro } from "./components/HomeLandingIntro";
 import { HomeTypeNav } from "./components/HomeTypeNav";
 
+  export const gallerySubLinks = [
+    { href: '/', label: 'Programming' },
+    { href: '/uiux', label: 'UI/UX Design' },
+    { href: '/graphic', label: 'Graphic Design & Arts' },
+  ]
+
 export default function Home() {
 
   const TYPE = "programming";
@@ -13,7 +19,7 @@ export default function Home() {
     <>
       <div className="page__body flex flex-col">
         <HomeLandingIntro />
-        <HomeTypeNav />
+        <HomeTypeNav links={gallerySubLinks} />
         <HomeTeaserContainer data={filteredData} groupName={TYPE} />
       </div>
     </>

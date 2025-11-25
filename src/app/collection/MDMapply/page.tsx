@@ -3,14 +3,7 @@ import data from '../../../data/projects.json'
 import { ShortSelfIntro } from '@/app/components/ShortSelfIntro';
 import { DefaultTeaserDisplay } from '@/app/components/defaultTeaserDisplay';
 import { HomeTypeNav } from '@/app/components/HomeTypeNav';
-
-export function MDMSubLinks() {
-  const MDMSubLinks = [
-    { href: '/collection/MDMapply', label: 'Project Samples & Summary' },
-    { href: '/collection/MDMapply/experience', label: 'Notable Experiences' },
-  ]
-  return MDMSubLinks
-}
+import { MDMSubLinks } from '@/data/subNavLinks';
 
 
 export default function MDMapplyPage() {

@@ -3,7 +3,7 @@ import data from '../../data/projects.json'
 import { HomeTeaserContainer } from "../components/HomeTeaser";
 import { HomeLandingIntro } from "../components/HomeLandingIntro";
 import { HomeTypeNav } from "../components/HomeTypeNav";
-import { gallerySubLinks } from '../page';
+import { gallerySubLinks } from '@/data/subNavLinks';
 
 export default function UIUX() {
 

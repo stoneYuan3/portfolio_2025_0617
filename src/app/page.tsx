@@ -3,15 +3,8 @@ import data from '../data/projects.json'
 import { HomeTeaserContainer } from "./components/HomeTeaser";
 import { HomeLandingIntro } from "./components/HomeLandingIntro";
 import { HomeTypeNav } from "./components/HomeTypeNav";
+import { gallerySubLinks } from '@/data/subNavLinks';
 
-export function gallerySubLinks() {
-  const gallerySubLinks = [
-    { href: '/', label: 'Programming' },
-    { href: '/uiux', label: 'UI/UX Design' },
-    { href: '/graphic', label: 'Graphic Design & Arts' },
-  ]
-  return gallerySubLinks
-}
 
 export default function Home() {
 

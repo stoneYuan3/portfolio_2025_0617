@@ -5,7 +5,7 @@ import { DefaultTeaserDisplay } from '@/app/components/defaultTeaserDisplay';
 import { HomeTypeNav } from '@/app/components/HomeTypeNav';
 
 
-export const MDMSubLinks = [
+const MDMSubLinks = [
   { href: '/collection/MDMapply', label: 'Project Samples & Summary' },
   { href: '/collection/MDMapply/experience', label: 'Notable Experiences' },
 ]

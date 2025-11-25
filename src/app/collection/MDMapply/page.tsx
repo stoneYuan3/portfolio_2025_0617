@@ -2,7 +2,6 @@
 import data from '../../../data/projects.json'
 import { ShortSelfIntro } from '@/app/components/ShortSelfIntro';
 import { DefaultTeaserDisplay } from '@/app/components/defaultTeaserDisplay';
-import Link from "next/link"
 import { HomeTypeNav } from '@/app/components/HomeTypeNav';
 
 

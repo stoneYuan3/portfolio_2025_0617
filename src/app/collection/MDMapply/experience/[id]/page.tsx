@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { fetchMdContent } from '@/hooks/useMdFetcher';
-import { InlineTeaserContainer } from '@/app/components/InlineProjectTeaser';
 
 export default async function ExperiencePage({
   params,
@@ -12,8 +11,6 @@ export default async function ExperiencePage({
 
   const { id } = await params;
   const contentHtml = await fetchMdContent("src/markdown/experience", id)
-
-  const experience_name = id;
 
   return (
 

@@ -4,11 +4,14 @@ import { ShortSelfIntro } from '@/app/components/ShortSelfIntro';
 import { DefaultTeaserDisplay } from '@/app/components/defaultTeaserDisplay';
 import { HomeTypeNav } from '@/app/components/HomeTypeNav';
 
+export function MDMSubLinks() {
+  const MDMSubLinks = [
+    { href: '/collection/MDMapply', label: 'Project Samples & Summary' },
+    { href: '/collection/MDMapply/experience', label: 'Notable Experiences' },
+  ]
+  return MDMSubLinks
+}
 
-const MDMSubLinks = [
-  { href: '/collection/MDMapply', label: 'Project Samples & Summary' },
-  { href: '/collection/MDMapply/experience', label: 'Notable Experiences' },
-]
 
 export default function MDMapplyPage() {
 
@@ -21,7 +24,7 @@ export default function MDMapplyPage() {
       <div className="page__body flex flex-col text-left m-auto">
         <ShortSelfIntro />
         <div className="mb-[3rem] text-left mdm_intro">
-          <HomeTypeNav links={MDMSubLinks}/>
+          <HomeTypeNav links={MDMSubLinks()} />
           {/* <h1 className='mb-[2rem]'>Shucong&apos;s Portfolio</h1> */}
           <p>This portfolio showcases me as a multi-talented creator with a focus on programming, but also the ability to deliver design and art-related work. The selected projects span volunteer, freelance, internship, and hobby settings, reflecting different aspects of my skills.</p>
           <p>The <strong>Sela Project</strong> was a collaboration with a volunteer team led by a senior EA developer. The team structure mirrored a professional environment, with members from diverse backgrounds and taking on specific roles. My initial task was implementing a <em>drag-to-select</em> feature in React.js and TypeScript, allowing users to highlight and color word blocks. As the project grew, I took on related tasks around the word block display window. This project showcases my skills in React.js and Typescript and gives me a glimpse of professional team management. I believe those experiences prepare me for collaborations in the MDM program</p>

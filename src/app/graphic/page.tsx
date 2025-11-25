@@ -14,7 +14,7 @@ export default function Graphic() {
     <>
       <div className="page__body flex flex-col">
         <HomeLandingIntro />
-        <HomeTypeNav links={gallerySubLinks} />
+        <HomeTypeNav links={gallerySubLinks()} />
         <HomeTeaserContainer data={filteredData} groupName={TYPE} />
       </div>
     </>

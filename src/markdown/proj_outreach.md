@@ -20,7 +20,7 @@ Work project under Alberni Online
 
 ### Link
 
-[https://outreach.albernihosting.ca/](https://outreach.albernihosting.ca/)
+[https://outreachtherapy.org/](https://outreachtherapy.org/)
 
 ### Intro
 
